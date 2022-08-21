@@ -1,0 +1,168 @@
+
+@font-face{
+	font-family: Futura-Bold;
+	src: url(../assets/fuentes/futura_bold.otf);
+}
+
+html {
+	background-color: #e3e3e0;
+}
+
+h1 {
+	font-family: Futura-Bold;
+	letter-spacing: 2px;
+	font-size: 1.5em;
+}
+
+body { 
+	padding-top: 5.5rem;
+	padding-bottom: 0;
+	color: #333 ;
+	font-size: 1.2rem ;
+	line-height: 1.6em;
+	margin: 0;
+}
+
+.contenedor {
+	width: 85%;
+	max-width: auto;
+	margin: 0 auto;
+}
+
+.logo-nav-contenedor {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	letter-spacing: 5px;
+	font-size: 2em;
+	font-family: Futura-Bold;
+}
+
+header {
+	background-color: lightgoldenrodyellow;
+	padding: 2rem 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+header div a {
+   	color: #666 ;
+    text-decoration: none;
+   
+}
+
+header nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+header nav ul li {
+	display: inline-block;
+}
+
+header nav ul li a {
+	display: block;
+	padding: 0.5rem 1rem;
+   	color: #666;
+    text-decoration: none;
+    transition: 0.4 linear;
+    border-radius: 5px;
+}
+
+header nav ul li a:hover {
+	background: lightyellow ;
+
+}
+
+.portfolio h1{
+	text-align: center;
+}
+
+.portfolio {
+	justify-content: center;
+}
+
+
+main {
+	background-color:#e3e3e0;
+	padding: 2rem 0;
+}
+
+main a {
+	text-decoration: none;
+	color: black;
+	display: block;
+	padding: 0.5rem 0;
+	transition: 0.4 linar;
+    border-radius: 5px;
+}
+
+main div p {
+	clear: both ;
+	text-align: center ;
+}
+
+.acercademi  img{
+	float: left;
+	padding: 0 1rem;
+}
+
+.acercademi h1{
+	padding-top: 2rem;
+	padding-left: 1rem;
+}
+
+.acercademi p{
+	clear: none;
+	text-align: justify;
+}
+
+
+.contactame img{
+	float: right;
+	padding: 2rem 1rem;
+}
+
+.contactame h1 {
+	padding-top: 2rem;
+	padding-left: 1rem;
+}
+
+.contactame form {
+		clear: none;
+	text-align: justify;
+}
+
+hr {
+	clear: both;
+	outline-style: groove;
+	padding: 0;
+}
+
+footer {
+	background-color: lightgoldenrodyellow;
+	padding: 2rem 0;
+	margin: 0;
+}
+
+footer div a {
+	padding-top: 5px;
+	padding-right: 8px;
+	padding-bottom: 5px;
+}
+
+
+footer div a img {
+	position: relative;
+	direction: ltr;
+	float: right;
+	width: 35px;
+	height: 35px;
+	padding-left: 8px;
+}
