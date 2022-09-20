@@ -9,7 +9,7 @@
 </head>
 <body>
 	<div class="container-fluid">
-		<header class="row">
+		<header class="row align-items-center">
 			<div class="col-12 col-lg-12">
 				<nav class="navbar navbar-expand-lg navbar-light">
 				  	<div class="container-fluid">
@@ -19,20 +19,20 @@
 				    	</button>
 				    	<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
 				      		<ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
-				        		<li class="nav-item">
-				          			<a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+				        		<li class="nav-item lista__elemento">
+				          			<a class="nav-link active elemento__link" aria-current="page" href="../index.html">Inicio</a>
 				        		</li>
-				        		<li class="nav-item">
-				          			<a class="nav-link active" aria-current="page" href="../pages/acerca_de_mxiky.html">Acerca de mi</a>
+				        		<li class="nav-item lista__elemento">
+				          			<a class="nav-link active elemento__link" aria-current="page" href="../pages/acerca_de_mxiky.html">Acerca de mi</a>
 				        		</li>
-				        		<li class="nav-item">
-				          			<a class="nav-link active" aria-current="page" href="../pages/portfolio_mxiky.html">Portfolio</a>
+				        		<li class="nav-item lista__elemento">
+				          			<a class="nav-link active elemento__link" aria-current="page" href="../pages/portfolio_mxiky.html">Portfolio</a>
 				        		</li>
-				        		<li class="nav-item">
-				          			<a class="nav-link active" aria-current="page" href="#">Reseñas de clientes</a>
+				        		<li class="nav-item lista__elemento">
+				          			<a class="nav-link active elemento__link" aria-current="page" href="#">Reseñas de clientes</a>
 				        		</li>
-				        		<li class="nav-item">
-				          			<a class="nav-link active" aria-current="page" href="../pages/contacto.html">Contacto</a>
+				        		<li class="nav-item lista__elemento">
+				          			<a class="nav-link active elemento__link" aria-current="page" href="../pages/contacto.html">Contacto</a>
 				        		</li>
 				      		</ul>
 				    	</div>
@@ -43,28 +43,27 @@
 		</header>
 	<main class="row">
 		<div class="col-12 col-lg-12">
-			<div class="contenedor titulo">
-				<h1>Contame tu experiencia trabajando conmigo:</h1>
+			<div class="contenedor">
+				<h1 class="contenedor__titulo mt-5 mb-5">Contame tu experiencia trabajando conmigo:</h1>
 			</div>
 			<div class="contenedor d-flex justify-content-center">
 				<form action="">
-					<textarea class="form-control areaTexto" name="" id="" cols="100" rows="10"></textarea> <br>
-					<input type="submit" value="Enviar">
-					<input type="reset" value="Cancelar">
+					<textarea class="form-control estiloTextArea" name="" id="" cols="100" rows="10"></textarea> <br>
+					<input class="formBtn" type="submit" value="Enviar">
+					<input class="formBtn" type="reset" value="Cancelar">
 				</form>
 			</div>
 		</div>
 	</main>
-	<hr>
 	<footer class="row align-items-center">
-			<div class="contenedor navbar navbar-expand col-12 col-lg-12 ">
-				<div class="contenedor texto texto__footer">
-					<p>Visita mis redes sociales</p>
+			<div class="contenedor navbar navbar-expand col-12 col-lg-12">
+				<div class="contenedor d-flex align-items-center">
+					<p class="fTxt">Visita mis redes sociales</p>
 				</div>
 				<div class="contenedor contenedor__linksFooter">
-					<a class="link__footer" href="https://vimeo.com/maikylopez" target="_blank"><img class="img__footer" src="../assets/img/vimeo-logo.png"  alt="Vimeo Logo"></a>
-					<a class="link__footer" href="https://www.instagram.com/maikylopez_/" target="_blank"><img class="img__footer" src="../assets/img/instagram-negro.png"  alt="Instagram Logo"></a>
-					<a class="link__footer" href="https://www.linkedin.com/in/micaela-l%C3%B3pez-83733620b/" target="_blank"><img class="img__footer" src="../assets/img/linkedin-logo.png"  alt="Linkedin Logo"></a>
+					<a class="contenedor__link" href="https://vimeo.com/maikylopez" target="_blank"><img class="link__imagen" src="../assets/img/vimeo-logo.png"  alt="Vimeo Logo"></a>
+					<a class="contenedor__link" href="https://www.instagram.com/maikylopez_/" target="_blank"><img class="link__imagen" src="../assets/img/instagram-negro.png"  alt="Instagram Logo"></a>
+					<a class="contenedor__link" href="https://www.linkedin.com/in/micaela-l%C3%B3pez-83733620b/" target="_blank"><img class="link__imagen" src="../assets/img/linkedin-logo.png"  alt="Linkedin Logo"></a>
 				</div>
 			</div>
 		</footer>

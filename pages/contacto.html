@@ -9,7 +9,7 @@
 </head>
 <body>
 	<div class="container-fluid">
-		<header class="row">
+		<header class="row align-items-center">
 			<div class="col-12 col-lg-12">
 				<nav class="navbar navbar-expand-lg navbar-light">
 				  	<div class="container-fluid">
@@ -19,20 +19,20 @@
 				    	</button>
 				    	<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
 				      		<ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
-				        		<li class="nav-item">
-				          			<a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+				        		<li class="nav-item lista__elemento">
+				          			<a class="nav-link active elemento__link" aria-current="page" href="../index.html">Inicio</a>
 				        		</li>
-				        		<li class="nav-item">
-				          			<a class="nav-link active" aria-current="page" href="../pages/acerca_de_mxiky.html">Acerca de mi</a>
+				        		<li class="nav-item lista__elemento">
+				          			<a class="nav-link active elemento__link" aria-current="page" href="../pages/acerca_de_mxiky.html">Acerca de mi</a>
 				        		</li>
-				        		<li class="nav-item">
-				          			<a class="nav-link active" aria-current="page" href="../pages/portfolio_mxiky.html">Portfolio</a>
+				        		<li class="nav-item lista__elemento">
+				          			<a class="nav-link active elemento__link" aria-current="page" href="../pages/portfolio_mxiky.html">Portfolio</a>
 				        		</li>
-				        		<li class="nav-item">
-				          			<a class="nav-link active" aria-current="page" href="../pages/feedback_clientes.html">Reseñas de clientes</a>
+				        		<li class="nav-item lista__elemento">
+				          			<a class="nav-link active elemento__link" aria-current="page" href="../pages/feedback_clientes.html">Reseñas de clientes</a>
 				        		</li>
-				        		<li class="nav-item">
-				          			<a class="nav-link active" aria-current="page" href="#">Contacto</a>
+				        		<li class="nav-item lista__elemento">
+				          			<a class="nav-link active elemento__link" aria-current="page" href="#">Contacto</a>
 				        		</li>
 				      		</ul>
 				    	</div>
@@ -43,28 +43,28 @@
 		</header>
 	<main class="row justify-content-center">
 		<div class="col-12 col-lg-12">
-			<div class="contenedor ">
-				<img src="../assets/img/resumen.gif"  alt="Resumen">
+			<div class="contenedor centrar">
+				<img class="imagenGif" src="../assets/img/resumen.gif"  alt="Resumen">
 			</div>
-			<div class="contenedor titulo">
-				<h1>Contactame</h1>
+			<div class="contenedor">
+				<h1 class="contenedor__titulo">Contactame</h1>
 			</div>
 			<div class="contenedor col-12 col-lg-12 ">
 				<form class="row g-3" action="">
 					<div class="col-6 col-lg-6">
-						<label class="texto textoLabel text-start" for="nombre">Nombre:</label>
-						<input type="text" class="form-control" placeholder="Nombre" name="nombre">
+						<label class=" text-start contenedor__etiqueta" for="nombre">Nombre:</label>
+						<input  type="text" class="form-control" placeholder="Nombre" name="nombre">
 					</div>
 					<div class="col-6 col-lg-6">
-						<label class="texto textoLabel text-start" for="apellido">Apellido:</label> 
-						<input type="text" class="form-control" placeholder="Apellido" name="apellido">
+						<label class=" text-start contenedor__etiqueta" for="apellido">Apellido:</label> 
+						<input  type="text" class="form-control" placeholder="Apellido" name="apellido">
 					</div>
 					<div class="col-6 col-lg-6">
-						<label class="texto textoLabel text-start" for="correo">Mail:</label>
-						<input type="email" class="form-control" placeholder="Mail" name="correo">
+						<label class=" text-start contenedor__etiqueta" for="correo">Mail:</label>
+						<input  type="email" class="form-control" placeholder="Mail" name="correo">
 					</div>
 					<div class="col-6 col-lg-6">
-						<label class="texto textoLabel text-start" for="telefono">Telefono:</label>
+						<label class=" text-start contenedor__etiqueta" for="telefono">Telefono:</label>
 						<input type="number" class="form-control" placeholder="Teléfono" name="telefono" >
 					</div>
 					<div class="col-6 col-lg-6">
@@ -77,16 +77,15 @@
 			</div>
 		</div>
 	</main>
-	<hr>
 	<footer class="row align-items-center">
-			<div class="contenedor navbar navbar-expand col-12 col-lg-12 ">
-				<div class="contenedor texto texto__footer">
-					<p>Visita mis redes sociales</p>
+			<div class="contenedor navbar navbar-expand col-12 col-lg-12">
+				<div class="contenedor d-flex align-items-center">
+					<p class="fTxt">Visita mis redes sociales</p>
 				</div>
 				<div class="contenedor contenedor__linksFooter">
-					<a class="link__footer" href="https://vimeo.com/maikylopez" target="_blank"><img class="img__footer" src="../assets/img/vimeo-logo.png"  alt="Vimeo Logo"></a>
-					<a class="link__footer" href="https://www.instagram.com/maikylopez_/" target="_blank"><img class="img__footer" src="../assets/img/instagram-negro.png"  alt="Instagram Logo"></a>
-					<a class="link__footer" href="https://www.linkedin.com/in/micaela-l%C3%B3pez-83733620b/" target="_blank"><img class="img__footer" src="../assets/img/linkedin-logo.png"  alt="Linkedin Logo"></a>
+					<a class="contenedor__link" href="https://vimeo.com/maikylopez" target="_blank"><img class="link__imagen" src="../assets/img/vimeo-logo.png"  alt="Vimeo Logo"></a>
+					<a class="contenedor__link" href="https://www.instagram.com/maikylopez_/" target="_blank"><img class="link__imagen" src="../assets/img/instagram-negro.png"  alt="Instagram Logo"></a>
+					<a class="contenedor__link" href="https://www.linkedin.com/in/micaela-l%C3%B3pez-83733620b/" target="_blank"><img class="link__imagen" src="../assets/img/linkedin-logo.png"  alt="Linkedin Logo"></a>
 				</div>
 			</div>
 		</footer>

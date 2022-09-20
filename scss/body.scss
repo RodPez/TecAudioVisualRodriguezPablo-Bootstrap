@@ -1,0 +1,12 @@
+body{
+	text-colour:$letrasYBordes;
+	background-color: $colorBody ;
+	min-height: 100vh;
+	& div.contenedor{
+		width: 85%;
+		margin: 0 auto;
+	}
+}
+
+
+

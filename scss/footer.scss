@@ -1,0 +1,42 @@
+footer{
+	background-color: $colorHeaderFooter;
+	height: 7.5rem;
+	bottom: 0;
+	border-top: solid 0.5rem $letrasYBordes;
+	margin-top: 2rem;
+    & p.fTxt{
+		font-family: Futura-Bold;
+		font-size: 1.85rem;
+		@media only screen and (max-width: 768px){
+			font-size: 1.25rem;
+		}
+	}
+	
+	& div.contenedor__linksFooter{
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: flex-end;
+		align-items: center;
+		height: 4rem;
+		& a.contenedor__link{
+			width:4rem;
+			height:4rem;
+			padding: 0.4rem;
+			@media only screen and (max-width: 768px){
+				width: 3rem;
+				height: 3rem;
+			}
+			& img.link__imagen{
+				width: 100%;
+				height: 100%;
+				margin: 0;
+			}		
+		}
+	}
+}
+
+
+
+				
+
+
